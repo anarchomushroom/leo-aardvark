@@ -10,5 +10,10 @@
             "js": ["content.js"],
             "run_at": "document_end"
         }
-    ]
+    ],
+
+    "icons": {
+        "icon128": "/images/icon128.jpg",
+        "icon48": "/images/icon48.jpg"
+    }
 }
