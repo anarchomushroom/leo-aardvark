@@ -1,0 +1,14 @@
+{
+    "name": "Leo Aardvark Extension",
+    "version": "1.0.0",
+    "description": "An extension that changes the surname Varadkar, into an anagram of itself, Aardvark.",
+    "manifest_version": 2,
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": "content.js",
+            "run_at": "document_end"
+        }
+    ]
+}
